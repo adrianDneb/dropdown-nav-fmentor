@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;550;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <script src="scripts.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hide">
+    <header>
+      <div class="logo"><a href="#"><img src="images/logo.svg" alt="snap logo"></a></div>
+      <div class="menu"><a href="#"><img src="images/icon-menu.svg" alt="menu"></a></div>
+
+      <nav class="nav">
+
+        <div class="mobile-menu">
+          <div class="menu-close"><a href="#"><img src="images/icon-close-menu.svg" alt="menu"></a></div>
+          <div class="menu-dd">
+            <div class="feat-dd menu-dd-item"><a href="#" class="features"><span>Features</span>
+                <img class="arrow" src="images/icon-arrow-down.svg" class="arrow"></a>
+              <div class="feat-dd-wrapper">
+                <ul class="feat-dd-list">
+                  <li><a href="#" class="feat-dd-item">
+                      <img src="images/icon-todo.svg">Todo List</a></li>
+                  <li><a href="#" class="feat-dd-item">
+                      <img src="images/icon-calendar.svg">Calendar</a></li>
+                  <li><a href="#" class="feat-dd-item">
+                      <img src="images/icon-reminders.svg">Reminders</a></li>
+                  <li><a href="#" class="feat-dd-item">
+                      <img src="images/icon-planning.svg">Planning</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="comp-dd menu-dd-item"><a href="#" class="company"><span>Company</span>
+                <img src="images/icon-arrow-down.svg" class="arrow"></a>
+              <div class="comp-dd-wrapper">
+                <ul class="comp-dd-list">
+                  <li><a href="#" class="company-dd-item">History</a></li>
+                  <li><a href="#" class="company-dd-item">Our Team</a></li>
+                  <li><a href="#" class="company-dd-item">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu-dd-item"><a href="#" class="careers">Careers</a></div>
+            <div class="menu-dd-item"><a href="#" class="about">About</a></div>
+          </div>
+          <div class="nav-buttons">
+            <button class="login">
+              Login </button>
+            <button class="register">
+              Register</button>
+          </div>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+      <div class="hero_sect">
+        <div class="left-main">
+          <div class="left-wrap">
+            <div class="left_inner">
+              <div class="l_content">
+                <h1>Make remote work</h1>
+
+                <p>Get your team in sync, no matter your location. Streamline processes,
+                  create team rituals, and watch productivity soar.</p>
+
+                <button class="learn">Learn more</button>
+              </div>
+              <div class="icons">
+                <img src="images/client-databiz.svg" alt="databiz" class="databiz">
+                <img src="images/client-audiophile.svg" alt="audiophile" class="audiophile">
+                <img src="images/client-meet.svg" alt="meet" class="meet">
+                <img src="images/client-maker.svg" alt="client-maker" class="maker">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-main">
+          <img src="images/image-hero-mobile.png" class="mobile-hero" alt="hero image mobile">
+          <img src="images/image-hero-desktop.png" class="desktop-hero" alt="hero image desktop">
+        </div>
+
+      </div>
+    </main>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">AdrianDneb</a>.
+  </footer>
+</body>
+
+</html>
